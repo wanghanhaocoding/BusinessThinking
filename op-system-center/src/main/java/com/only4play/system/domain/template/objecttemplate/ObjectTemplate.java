@@ -59,7 +59,7 @@ public class ObjectTemplate extends BaseJpaAggregate {
   private String categoryCode;
 
   @FieldDesc(name = "模板分类id")
-  private String categoryId;
+  private Long categoryId;
 
   @FieldDesc(name = "描述信息")
   private String description;
